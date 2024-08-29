@@ -1,8 +1,23 @@
-import React from 'react';
-import Root from './src/navigation/root';
+import React from "react";
+import{
+  View,
+  Text,
+  SafeAreaView,
+  Button,
+} from 'react-native';
 
-function App(): JSX.Element {
-  return <Root />;
+function App() {
+  return(
+    <SafeAreaView>
+    <View>
+      <Text>Hello World</Text>
+      <Text>Hello World</Text>
+      <Text>Hello World</Text>
+      <Text>Hello World</Text>
+    </View>
+    
+  </SafeAreaView>
+  )
+
 }
-
 export default App;
