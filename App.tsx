@@ -84,11 +84,9 @@ setSymbols(false)
        {({
          values,
          errors,
-         isValid,
          touched,
          handleChange,
          handleSubmit,
-         isSubmitting,
          handleReset,
          /* and other goodies */
        }) => (
@@ -97,6 +95,7 @@ setSymbols(false)
           <View style= {styles.inputColumn}>
             <Text style= {styles.heading}>Password Length</Text>
             {touched.passwordLength && errors.passwordLength && (
+              
               <Text style={styles.errorText}>
                 {errors.passwordLength}
               </Text>
@@ -160,7 +159,7 @@ setSymbols(false)
         <View style={[styles.card, styles.cardElevated]}>
           <Text style={styles.subTitle}> Result: </Text>
           <Text style={styles.description}> Long Press to copy</Text>
-          <Text style={styles.generatedPassword}> {password}</Text>
+          <Text selectable style={styles.generatedPassword}> {password}</Text>
         </View>
        )
 
