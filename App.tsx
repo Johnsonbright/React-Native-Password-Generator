@@ -8,7 +8,7 @@ import * as Yup from 'yup'
 import {Formik} from 'formik';
 
 const PasswordSchema = Yup.object().shape({
-  passwordLength: Yup.number().min(4, 'Should be min of 4 characters').max(16, 'Should be max of 16 characters').required('Length is required')
+  passwordLength: Yup.number().min(4, 'Should be min of 4 characters').max(14, 'Should be max of 16 characters').required('Length is required')
 })
 export default function App(): React.JSX.Element {
   const [password, setPassword] = useState('')
