@@ -174,8 +174,8 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   formContainer: {
-    margin: 8,
-    padding: 8,
+    margin: 8.5,
+    padding: 8.5,
   },
   title: {
     fontSize: 32,
