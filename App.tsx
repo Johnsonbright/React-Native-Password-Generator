@@ -158,7 +158,7 @@ setSymbols(false)
        {isPassGenerated ? (
         <View style={[styles.card, styles.cardElevated]}>
           <Text style={styles.subTitle}> Result: </Text>
-          <Text style={styles.description}> Long Press to copy</Text>
+          <Text style={styles.description}> Long Press To Copy</Text>
           <Text selectable style={styles.generatedPassword}> {password}</Text>
         </View>
        )
