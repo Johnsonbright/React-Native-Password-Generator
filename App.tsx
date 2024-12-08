@@ -141,7 +141,7 @@ setSymbols(false)
           <TouchableOpacity
           style={styles.primaryBtn}
           onPress={() =>handleSubmit()}>
-          <Text  style={styles.primaryBtnText}> Generate Password</Text>
+          <Text  style={styles.primaryBtnText}> Generate Your Password</Text>
             </TouchableOpacity>
           <TouchableOpacity  style={styles.secondaryBtn} 
           onPress={()=> {handleReset();
