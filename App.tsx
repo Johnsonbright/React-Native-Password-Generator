@@ -148,7 +148,7 @@ setSymbols(false)
             resetPasswordState()
           }}
           > 
-            <Text style={styles.secondaryBtnTxt}> Resets</Text>
+            <Text style={styles.secondaryBtnTxt}> Reset Now</Text>
             </TouchableOpacity>
         </View>
         </>
